@@ -3,25 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>民法過去問帳</title>
-<link rel="canonical" href="https://law-kakomon.github.io/minpo-kakomon/">
-<meta http-equiv="refresh" content="0; url=https://law-kakomon.github.io/minpo-kakomon/">
-<meta name="robots" content="noindex">
+<title>過去問帳</title>
+<meta name="description" content="法科大学院 既修者入試の過去問を、科目ごと・単元ごとに引ける索引。問題と解説は各大学の公式ページを開きます。">
+<link rel="icon" href="favicon.ico" sizes="any">
+<meta property="og:type" content="website">
+<meta property="og:title" content="過去問帳">
+<meta property="og:description" content="法科大学院 既修者入試の過去問を、科目ごと・単元ごとに引ける索引。">
+<meta property="og:url" content="https://law-kakomon.github.io/">
 <style>
-body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f7f6f3;color:#1f2328;
-     font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif}
-@media (prefers-color-scheme:dark){body{background:#15171b;color:#e6e4df}}
-.box{text-align:center;line-height:2;padding:24px}
-a{color:#4a5fa5}
-@media (prefers-color-scheme:dark){a{color:#8ea2d8}}
+:root{
+  --bg:#f7f6f3; --panel:#fff; --fg:#1f2328; --muted:#6b7280; --border:#e2e0da;
+  --shadow:0 8px 24px rgba(0,0,0,.08);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#15171b; --panel:#1d2026; --fg:#e6e4df; --muted:#9aa0a8; --border:#33373f;
+        --shadow:0 8px 24px rgba(0,0,0,.5);}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-size:15px;line-height:1.8;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;}
+.wrap{max-width:720px;margin:0 auto;padding:56px 20px 72px}
+h1{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:34px;letter-spacing:.06em;
+   margin:0 0 6px;font-weight:600}
+.lead{color:var(--muted);margin:0 0 34px}
+a.card{display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;
+  background:var(--panel);border:1px solid var(--border);border-radius:14px;
+  padding:18px 20px;margin-bottom:14px}
+a.card:hover{box-shadow:var(--shadow);border-color:transparent}
+.mark{flex:0 0 auto;width:62px;height:62px;border-radius:14px;display:grid;place-items:center;
+  font-family:"Hiragino Mincho ProN","Yu Mincho",serif;color:#fff;font-size:21px;line-height:1.1;
+  text-align:center;font-weight:600;letter-spacing:.04em}
+.minpo{background:linear-gradient(145deg,#35715c,#1b4132)}
+.minso{background:linear-gradient(145deg,#8c3a46,#4a1d24)}
+.t{font-weight:600;font-size:17px}
+.d{color:var(--muted);font-size:13.5px;line-height:1.7}
+.note{color:var(--muted);font-size:13px;line-height:1.9;border-left:3px solid var(--border);
+  padding:2px 0 2px 12px;margin:30px 0 0}
+.soon{opacity:.55}
+.soon .mark{background:linear-gradient(145deg,#6b7280,#3f4651)}
 </style>
 </head>
 <body>
-<div class="box">
-  <p>民法過去問帳は引っ越しました。</p>
-  <p><a href="https://law-kakomon.github.io/minpo-kakomon/">https://law-kakomon.github.io/minpo-kakomon/</a></p>
-  <p><small>自動で移動します。移動しない場合は上のリンクをおしてください。</small></p>
+<div class="wrap">
+  <h1>過去問帳</h1>
+  <p class="lead">法科大学院 既修者入試の過去問を、科目ごと・単元ごとに引ける索引です。</p>
+
+  <a class="card" href="https://law-kakomon.github.io/minpo-kakomon/">
+    <div class="mark minpo">過<br>去<br>問</div>
+    <div>
+      <div class="t">民法過去問帳</div>
+      <div class="d">同志社・立命館・関学・慶應・中央／92回<br>総則・物権・担保物権・債権・契約・親族・相続の単元から引く</div>
+    </div>
+  </a>
+
+  <a class="card" href="https://law-kakomon.github.io/minso-kakomon/">
+    <div class="mark minso">民<br>訴</div>
+    <div>
+      <div class="t">民事訴訟法過去問帳</div>
+      <div class="d">同志社・慶應・中央／51回<br>裁判所・当事者・訴えの提起・審理・証拠・既判力の単元から引く</div>
+    </div>
+  </a>
+
+  <p class="note">
+    問題・解説の PDF は、ここには置いていません。各大学の公式ページをそのまま開きます。<br>
+    単元・論点の整理は、大学が公開している解説・入試講評・出題趣旨の本文にもとづく私的なもので、大学の公式見解ではありません。
+  </p>
 </div>
-<script>location.replace("https://law-kakomon.github.io/minpo-kakomon/");</script>
 </body>
 </html>

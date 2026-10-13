@@ -1,7 +1,8 @@
 # law-kakomon.github.io
 
-法科大学院入試の過去問を単元別に引くサイト置き場。
+法科大学院入試の過去問を単元別に引くサイトの入口。
 
-- [民法過去問帳](https://law-kakomon.github.io/minpo-kakomon/)
+- [民法過去問帳](https://law-kakomon.github.io/minpo-kakomon/) — `law-kakomon/minpo-kakomon`
+- [民事訴訟法過去問帳](https://law-kakomon.github.io/minso-kakomon/) — `law-kakomon/minso-kakomon`
 
-いまはトップを民法過去問帳へ転送している。他科目が増えたら、ここを一覧ページに差し替える。
+科目を足すときは、`law-kakomon/<科目>-kakomon` を作り、ここの index.html にカードを1枚足す。
