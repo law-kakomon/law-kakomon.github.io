@@ -63,7 +63,7 @@ OG_HTML = f"""<body style="margin:0;width:1200px;height:630px;
   </div>
   <div style="font-size:26px;margin:30px 0 0 43px;line-height:1.75;opacity:.78">
     民法・民訴・会社法・憲法・行政法・刑法・刑訴の7科目<br>
-    総則・物権・債権・契約・親族・相続などの単元から絞り込み<br>
+    京大・同志社・立命館・関学・慶應・中央の公開 PDF を単元から引く<br>
     問題と解説は各大学の公式ページをそのまま開く
   </div>
 </div></body>"""
